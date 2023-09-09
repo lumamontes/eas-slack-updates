@@ -37,7 +37,7 @@ SLACK_WEBHOOK_URL= os.environ.get('SLACK_WEBHOOK_URL')
 
 @app.route('/webhook', methods=['POST'])
 # Handle incoming webhook requests from Expo
-def lambda_handler():
+def webhook():
     try:
         body = request.data.decode('utf-8')
         expo_signature = request.headers.get('expo-signature')
