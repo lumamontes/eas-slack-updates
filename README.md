@@ -1,7 +1,7 @@
 # eas-slack-updates
 Simple python script for managing Expo Application Service (EAS) build/submit webhooks. Generates QR codes using Cloudinary and sends a slack message.
 
- <img src="https://github.com/lumamontes/eas-slack-updates/assets/60052718/0cfd0bc3-5319-4e60-b2cc-2e5295851f81" width="300"  alt="slack message print">
+![image](https://github.com/lumamontes/eas-slack-updates/assets/60052718/3cf36f27-0354-4079-8cc4-6178732af672)
 
 ### Set Up Slack Webhook
 - [Obtain a Slack webhook URL for sending notifications](https://api.slack.com/messaging/webhooks)
